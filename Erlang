@@ -1,0 +1,3 @@
+-module(hola).
+-export([mundo/0]).
+mundo() -> io:format("Hola, Mundo!~n").

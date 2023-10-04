@@ -1,0 +1,3 @@
+forth
+: hola-mundo ." Hola Mundo" ;
+hola-mundo

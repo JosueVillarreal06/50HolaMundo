@@ -1,0 +1,6 @@
+fsharp
+open System
+[<EntryPoint>]
+let main argv =
+Console.WriteLine("Hola Mundo")
+0 // return an integer exit code

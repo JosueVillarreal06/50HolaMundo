@@ -1,0 +1,14 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+entity HolaMundo is
+end HolaMundo;
+architecture Behavioral of HolaMundo is
+begin
+    process
+    begin
+        report "Hola, Mundo!";
+        wait;
+    end process;
+end Behavioral;

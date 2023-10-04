@@ -1,0 +1,9 @@
+{
+return 0;
+26. *Erlang*
+erlang
+-module(hola).
+-export([mundo/0]).
+mundo() ->
+io:format("Hola Mundo~n").
+}
